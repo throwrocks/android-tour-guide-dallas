@@ -4,6 +4,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
 import android.support.v4.app.Fragment;
@@ -18,6 +19,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -118,8 +121,16 @@ public class MainActivity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            ArrayList<Attraction> attractions = new ArrayList<>();
+            Attraction attraction = new Attraction();
+            attraction.setName("Teeeessttt");
+            attraction.setAddress("");
+
+            RecyclerViewAdapter adapter = new RecyclerViewAdapter(getContext(), attractions);
+            RecyclerView list = (RecyclerView) rootView.findViewById(R.id.list);
+            list.setAdapter(adapter);
+            //TextView textView = (TextView) rootView.findViewById(R.id.attraction_name);
+            //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
         }
     }
@@ -149,17 +160,8 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public CharSequence getPageTitle(int position) {
-            switch (position) {
-                case 0:
-                    return "SECTION 1";
-                case 1:
-                    return "SECTION 2";
-                case 2:
-                    return "SECTION 3";
-                case 3:
-                    return "SECTION 3";
-            }
-            return null;
+            String[] attractionCategories = getResources().getStringArray(R.array.attraction_categories);
+            return attractionCategories[position];
         }
     }
 }

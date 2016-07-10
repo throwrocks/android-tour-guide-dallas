@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">android-tour-guide</string>
+    <string name="app_name">Dallas Attractions</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <!-- Downtown -->
+    <string name="downtown1_name">World Aquarium</string>
+    <string name="downtown2_name">West End</string>
+    <string name="downtown3_name">Courthouse</string>
+    <string name="downtown4_name">John F. Kennedy Memorial</string>
+    <string name="downtown5_name">City Hall</string>
 </resources>

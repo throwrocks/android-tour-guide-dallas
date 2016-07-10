@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="media_names">
-        <item>Big Buck Bunny</item>
-        <item>Elephants Dream</item>
-        <item>Sintel</item>
-        <item>Tears of Steel</item>
+    <string-array name="attraction_categories">
+        <item>Downtown</item>
+        <item>Museums</item>
+        <item>Trails</item>
+        <item>Food</item>
     </string-array>
 </resources>
