@@ -1,5 +1,6 @@
 package rocks.athrow.android_tour_guide;
 
+import android.content.res.Resources;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
@@ -12,6 +13,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -96,6 +98,9 @@ public class MainActivity extends AppCompatActivity {
      * A placeholder fragment containing a simple view.
      */
     public static class PlaceholderFragment extends Fragment {
+        private DataProvider mDataProvider;
+        private RecyclerViewAdapter mAdapter;
+        private ArrayList<Attraction> mAttractions;
         /**
          * The fragment argument representing the section number for this
          * fragment.
@@ -120,15 +125,22 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
+            Bundle bundle = getArguments();
+            int sectionNumber = bundle.getInt(ARG_SECTION_NUMBER);
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            ArrayList<Attraction> attractions = new ArrayList<>();
-            Attraction attraction = new Attraction();
-            attraction.setName("Teeeessttt");
-            attraction.setAddress("");
-
-            RecyclerViewAdapter adapter = new RecyclerViewAdapter(getContext(), attractions);
             RecyclerView list = (RecyclerView) rootView.findViewById(R.id.list);
-            list.setAdapter(adapter);
+            Resources resources = getResources();
+            String category ="";
+            sectionNumber = 1;
+            switch (sectionNumber) {
+                case 1:
+                    category = resources.getString(R.string.downtown_category);
+                    break;
+            }
+            mDataProvider = new DataProvider(this.getContext());
+            mAttractions = mDataProvider.getAttraction(category);
+            mAdapter = new RecyclerViewAdapter(getContext(), mAttractions);
+            list.setAdapter(mAdapter);
             //TextView textView = (TextView) rootView.findViewById(R.id.attraction_name);
             //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;

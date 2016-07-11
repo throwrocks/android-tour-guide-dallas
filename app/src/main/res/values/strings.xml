@@ -1,11 +1,40 @@
 <resources>
     <string name="app_name">Dallas Attractions</string>
     <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
-    <!-- Downtown -->
+    <!-- Downtown 1 -->
+    <string name="downtown_category">downtown</string>
     <string name="downtown1_name">World Aquarium</string>
+    <string name="downtown1_address">1801 N Griffin St, Dallas, TX 75202</string>
+    <string name="downtown1_description">The Dallas World Aquarium is a for-profit aquarium
+        and zoo located in the West End Historic District of downtown Dallas,
+        Texas, USA.</string>
+    <string name="downtown1_filename">downtown_aquarium</string>
+    <!-- Downtown 2 -->
     <string name="downtown2_name">West End</string>
-    <string name="downtown3_name">Courthouse</string>
+    <string name="downtown2_address">null</string>
+    <string name="downtown2_description">The West End Historic District of Dallas, Texas,
+        is a historic district that includes a 67.5-acre area in northwest downtown,
+        generally north of Commerce, east of I-35E, west of Lamar and south of
+        Woodall Rodgers Freeway.</string>
+    <string name="downtown2_filename">downtown_west_end</string>
+    <!-- Downtown 3 -->
+    <string name="downtown3_name">Old Red Museum of Dallas County History &amp; Culture</string>
+    <string name="downtown3_address">100 S Houston St, Dallas, TX 75202</string>
+    <string name="downtown3_description">Dramatic 1890 red sandstone courthouse exhibiting city
+        annals &amp; artifacts plus events &amp; programs.</string>
+    <string name="downtown3_filename">downtown_courthouse</string>
+    <!-- Downtown 4 -->
     <string name="downtown4_name">John F. Kennedy Memorial</string>
+    <string name="downtown4_address">646 Main St, Dallas, TX 75202</string>
+    <string name="downtown4_description">The John Fitzgerald Kennedy Memorial is a monument
+        to U.S. President John Fitzgerald Kennedy in the West End Historic District of downtown
+        Dallas, Texas erected in 1970, and designed by noted architect Philip Johnson.</string>
+    <string name="downtown4_filename">downtown_jfk_monument</string>
+    <!-- Downtown 5 -->
     <string name="downtown5_name">City Hall</string>
+    <string name="downtown5_address">500 Marilla St, Dallas, TX 75201</string>
+    <string name="downtown5_description">Dallas City Hall is the seat of Dallas municipal
+        government, located at 1500 Marilla in the Government District of downtown
+        Dallas, Texas</string>
+    <string name="downtown5_filename">downtown_city_hall</string>
 </resources>
