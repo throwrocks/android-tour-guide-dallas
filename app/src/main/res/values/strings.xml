@@ -18,18 +18,21 @@
         Woodall Rodgers Freeway.</string>
     <string name="downtown2_filename">downtown_west_end</string>
     <!-- Downtown 3 -->
-    <string name="downtown3_name">Old Red Museum of Dallas County History &amp; Culture</string>
-    <string name="downtown3_address">100 S Houston St, Dallas, TX 75202</string>
-    <string name="downtown3_description">Dramatic 1890 red sandstone courthouse exhibiting city
-        annals &amp; artifacts plus events &amp; programs.</string>
-    <string name="downtown3_filename">downtown_courthouse</string>
+    <string name="downtown3_name">Klyde Warren Park</string>
+    <string name="downtown3_address">32°47′22″N 96°48′06″W</string>
+    <string name="downtown3_description">Klyde Warren Park creates an urban green space constructed
+        over a section of the below-grade Woodall Rodgers Freeway, for 3 blocks between Pearl
+        Street and St. Paul Street. It provides connectivity to the city’s flourishing Arts
+        District from other neighborhoods, brings together cultural events and experiences,
+        and serves as a central public gathering space for Dallas residents and visitors to enjoy.</string>
+    <string name="downtown3_filename">downtown_klyde_warren</string>
     <!-- Downtown 4 -->
     <string name="downtown4_name">John F. Kennedy Memorial</string>
     <string name="downtown4_address">646 Main St, Dallas, TX 75202</string>
     <string name="downtown4_description">The John Fitzgerald Kennedy Memorial is a monument
         to U.S. President John Fitzgerald Kennedy in the West End Historic District of downtown
         Dallas, Texas erected in 1970, and designed by noted architect Philip Johnson.</string>
-    <string name="downtown4_filename">downtown_jfk_monument</string>
+    <string name="downtown4_filename">downtown_jfk_memorial</string>
     <!-- Downtown 5 -->
     <string name="downtown5_name">City Hall</string>
     <string name="downtown5_address">500 Marilla St, Dallas, TX 75201</string>
@@ -37,4 +40,91 @@
         government, located at 1500 Marilla in the Government District of downtown
         Dallas, Texas</string>
     <string name="downtown5_filename">downtown_city_hall</string>
+    <!-- Museum 1 -->
+    <string name="museum_category">museums</string>
+    <string name="museum1_name">Dallas Museum of Art</string>
+    <string name="museum1_address">1717 N. Harwood, Dallas, TX</string>
+    <string name="museum1_description">The museum collection is made up of more than
+        24,000 objects, dating from the third millennium BC to the present day.
+        It is also defined by its dynamic exhibition policy and
+        award-winning educational programs.</string>
+    <string name="museum1_filename">museum_dma</string>
+    <!-- Museum 2 -->
+    <string name="museum2_name">Old Red Museum of Dallas County History &amp; Culture</string>
+    <string name="museum2_address">100 S Houston St, Dallas, TX 75202</string>
+    <string name="museum2_description">Dramatic 1890 red sandstone courthouse exhibiting city
+        annals &amp; artifacts plus events &amp; programs.</string>
+    <string name="museum2_filename">museum_old_red</string>
+    <!-- Museum 3 -->
+    <string name="museum3_name">Perot Museum of Nature and Science</string>
+    <string name="museum3_address">2201 N Field St, Dallas, TX 75201</string>
+    <string name="museum3_description">The Perot Museum of Nature and Science consists of two
+        campuses: the primary campus located in Victory Park, and a secondary
+        campus in Fair Park. It features eleven exhibit halls and including 3D simulations,
+        hands-on activities, interactive kiosks and educational games.</string>
+    <string name="museum3_filename">museum_perot</string>
+    <!-- Museum 4 -->
+    <string name="museum4_name">Trammell &amp;  Margaret Crow Collection of Asian Art</string>
+    <string name="museum4_address">2010 Flora St, Dallas, TX 75201</string>
+    <string name="museum4_description">The Trammell &amp; Margaret Crow Collection of Asian Art,
+        also known as the Crow Collection of Asian Art, is a museum dedicated to the arts and
+        cultures of China, Japan, India and Southeast Asia.</string>
+    <string name="museum4_filename">museum_asian</string>
+    <!-- Museum 5 -->
+    <string name="museum5_name">Meadows Museum</string>
+    <string name="museum5_address">5900 Bishop Boulevard Dallas, TX 75275</string>
+    <string name="museum5_description">The Meadows Museum is a division of the Southern
+        Methodist University Meadows School of the Arts. It houses one of the largest and
+        most comprehensive collections of Spanish art outside of Spain, with works dating
+        from the 10th to the 20th century. It includes masterpieces by some of the world\'s
+        greatest painters: El Greco, Velázquez, Ribera, Murillo, Goya, Miró, Sorolla,
+        and Picasso.</string>
+    <string name="museum5_filename">museum_meadow</string>
+    <!-- Trail 1 -->
+    <string name="trail_category">trails</string>
+    <string name="trail1_name">Katy Trail</string>
+    <string name="trail1_address">null</string>
+    <string name="trail1_description">The Katy Trail is a jogging, walking, inline skating,
+        and bicycling path that runs through the Uptown and Oak Lawn areas of Dallas,
+        following the path of the old Missouri-Kansas-Texas Railroad, which was known
+        as MKT or the Katy.</string>
+    <string name="trail1_filename">trail_katy</string>
+    <!-- Trail 2 -->
+    <string name="trail2_name">Santa Fe Trestle</string>
+    <string name="trail2_address">null</string>
+    <string name="trail2_description">The steel portion of  the bridge was originally built
+        in 1926 and served as a main artery for the AT&amp;SF Railroad in Dallas.
+        Some old signs along the old right of way can still be found in the overgrowth.
+        In 1985 the trestle was burned in an overnight fire destroying over half the structure.</string>
+    <string name="trail2_filename">trail_santa_fe_trestle</string>
+    <!-- Trail 3 -->
+    <string name="trail3_name">Sata Fe Trail</string>
+    <string name="trail3_address">null</string>
+    <string name="trail3_description">With a length of 5.3 miles, the Santa Fe Trail extends
+        the continuous trail corridor that begins in far northern Dallas with the Preston Ridge
+        Trail so that the corridor now ends at the doorstep of downtown Dallas -
+        a distance of over 20 miles.</string>
+    <string name="trail3_filename">trail_santa_fe</string>
+    <!-- Trail 4 -->
+    <string name="trail4_name">White Rock</string>
+    <string name="trail4_address">null</string>
+    <string name="trail4_description">White Rock Lake is a reservoir located in north-east Dallas.
+        The lake was formed by damming White Rock Creek, which today widens into the lake before
+        continuing south out of the spillway and emptying into the Trinity River
+        as MKT or the Katy. The lake is surrounded by White Rock Lake Park,
+        which features a 9.33 mile (15 km) trail for hiking, running and bicycling,
+        the Bath House Cultural Center and the Dallas Arboretum and Botanical Garden.
+        There are several fishing piers and sailing is permitted.</string>
+    <string name="trail4_filename">trail_whiterock</string>
+    <!-- Trail 5 -->
+    <string name="trail5_name">Cedar Ridge Nature Center</string>
+    <string name="trail5_address">null</string>
+    <string name="trail5_description">The Cedar Ridge Nature Preserve is a scenic,
+        rich in wildlife, slice of hill country.
+        Formerly the Dallas Nature Center, the preserve spans 600 acres between Mountain
+        Creek Parkway and FM 1382, a short 20 minutes from downtown Dallas.
+        The natural habitat is jointly owned by the City of Dallas and Dallas
+        County and features native trees, grasses, and wildflowers, displaying
+        the natural beauty of the area.</string>
+    <string name="trail5_filename">trail_cedar_ridge</string>
 </resources>

@@ -60,39 +60,10 @@ public class MainActivity extends AppCompatActivity {
         mTabLayout = (TabLayout) findViewById(R.id.tabs);
         mTabLayout.setupWithViewPager(mViewPager);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
 
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
     /**
      * A placeholder fragment containing a simple view.
@@ -131,12 +102,18 @@ public class MainActivity extends AppCompatActivity {
             RecyclerView list = (RecyclerView) rootView.findViewById(R.id.list);
             Resources resources = getResources();
             String category ="";
-            sectionNumber = 1;
             switch (sectionNumber) {
                 case 1:
                     category = resources.getString(R.string.downtown_category);
                     break;
+                case 2:
+                    category = resources.getString(R.string.museum_category);
+                    break;
+                case 3:
+                    category = resources.getString(R.string.trail_category);
+                    break;
             }
+            Log.e("category", category);
             mDataProvider = new DataProvider(this.getContext());
             mAttractions = mDataProvider.getAttraction(category);
             mAdapter = new RecyclerViewAdapter(getContext(), mAttractions);
@@ -166,7 +143,6 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
             return 4;
         }
 
