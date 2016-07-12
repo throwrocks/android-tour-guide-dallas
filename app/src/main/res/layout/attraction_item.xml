@@ -20,6 +20,7 @@
             android:layout_width="84dp"
             android:layout_height="84dp"
             android:layout_gravity="top"
+            android:contentDescription="@string/attraction_image_content_description"
             android:scaleType="centerCrop" />
 
         <LinearLayout
@@ -38,20 +39,23 @@
                 android:id="@+id/attraction_location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/attraction_location_icon_description"
                 android:gravity="center"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_marginStart="6dp"
                     android:layout_width="18dp"
                     android:layout_height="18dp"
+                    android:layout_marginStart="6dp"
                     android:background="@drawable/icon_location" />
+
                 <TextView
-                    android:gravity="start"
                     android:id="@+id/attraction_address"
                     style="@style/attraction_address"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textAllCaps="true" />
             </LinearLayout>
 
             <TextView

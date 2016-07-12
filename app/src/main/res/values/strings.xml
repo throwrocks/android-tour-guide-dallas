@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">Dallas Attractions</string>
     <string name="action_settings">Settings</string>
-    <!-- Downtown 1 -->
+    <!-- General -->
+    <string name="attraction_image_content_description">A photo showing the attraction</string>
+    <string name="attraction_location_icon_description">A marker icon shown next to the attraction\'s address</string>
+    <!-- SECTION 1: Downtown-->
     <string name="downtown_category">downtown</string>
+    <!-- Downtown 1 -->
     <string name="downtown1_name">World Aquarium</string>
     <string name="downtown1_address">1801 N Griffin St, Dallas, TX 75202</string>
     <string name="downtown1_description">The Dallas World Aquarium is a for-profit aquarium
@@ -40,8 +44,9 @@
         government, located at 1500 Marilla in the Government District of downtown
         Dallas, Texas</string>
     <string name="downtown5_filename">downtown_city_hall</string>
-    <!-- Museum 1 -->
+    <!-- SECTON 2: Museums -->
     <string name="museum_category">museums</string>
+    <!-- Museum 1 -->
     <string name="museum1_name">Dallas Museum of Art</string>
     <string name="museum1_address">1717 N. Harwood, Dallas, TX</string>
     <string name="museum1_description">The museum collection is made up of more than
@@ -80,8 +85,9 @@
         greatest painters: El Greco, Velázquez, Ribera, Murillo, Goya, Miró, Sorolla,
         and Picasso.</string>
     <string name="museum5_filename">museum_meadow</string>
-    <!-- Trail 1 -->
+    <!-- SECTION 3: Trails -->
     <string name="trail_category">trails</string>
+    <!-- Trail 1 -->
     <string name="trail1_name">Katy Trail</string>
     <string name="trail1_address">null</string>
     <string name="trail1_description">The Katy Trail is a jogging, walking, inline skating,
@@ -127,4 +133,43 @@
         County and features native trees, grasses, and wildflowers, displaying
         the natural beauty of the area.</string>
     <string name="trail5_filename">trail_cedar_ridge</string>
+    <!-- SECTION 4: Food -->
+    <string name="food_category">Food</string>
+    <!--Food 1-->
+    <string name="food1_name">Marie\'s Mantle</string>
+    <string name="food1_address">1701 S Lamar St, Dallas, TX 75215</string>
+    <string name="food1_description">Marie\’s Mantle creates and delivers diverse, healthy
+        and familiar cuisine that you can truly enjoy. We cater to the “everyday person” who
+        enjoys being active, has a social &amp; family life and a career. At the end of the day,
+        you simply want to lead a healthy, fulfilling life.</string>
+    <string name="food1_filename">food_maries_mantle</string>
+    <!--Food 2-->
+    <string name="food2_name">Central Market</string>
+    <string name="food2_address">5750 E Lovers Ln, Dallas, TX 75206</string>
+    <string name="food2_description">Try a sumptuous selection of everything edible, for starters.
+        We go straight to the source to bring you some of the finest foods Texas and the rest
+        of the world have to offer. With hundreds of cheeses, thousands of wines, acres of
+        produce, and aisles of experts, Central Market is for everyone really into food.</string>
+    <string name="food2_filename">food_central_market</string>
+    <!--Food 3-->
+    <string name="food3_name">El Corazon de Tejas</string>
+    <string name="food3_address">110 W Davis St, Dallas, TX 75208</string>
+    <string name="food3_description">Regional Mexican cooking &amp; seasonal beverage specialties in a
+        classic space with vintage decor.</string>
+    <string name="food3_filename">food_corazon_tejas</string>
+    <!--Food 4-->
+    <string name="food4_name">Truck Yard</string>
+    <string name="food4_address">5624 Sears St, Dallas, TX 75206</string>
+    <string name="food4_description">Complex housing food trucks in an expansive,
+        retro outdoor space with treehouse &amp; trailer bars.</string>
+    <string name="food4_filename">food_truck_yard</string>
+    <!--Food 5-->
+    <string name="food5_name">Eatzi\'s Market</string>
+    <string name="food5_address">3403 OAK LAWN AVE. Dallas, TX 75219</string>
+    <string name="food5_description">Eatzi\'s Market &amp; Bakery is a chain of bakery, gourmet
+        takeout markets, and restaurants, created by Philip J. Romano. It was based in the
+        Dallas–Fort Worth metroplex, and proposes high end products. Four locations
+        in Dallas remain open. </string>
+    <string name="food5_filename">food_eat_zis</string>
+
 </resources>

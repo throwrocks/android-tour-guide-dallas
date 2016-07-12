@@ -64,7 +64,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(final ViewHolder holder, int position) {
         Resources resources = mContext.getResources();
         Attraction attraction = mAttractions.get(position);
-        String attractionCategory = attraction.getCategory();
         String attractionName = attraction.getName();
         String attractionAddress = attraction.getAddress();
         String attractionDescription = attraction.getDescription();
@@ -89,7 +88,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         }else{
             holder.viewAttractionDescription.setVisibility(View.VISIBLE);
             holder.viewAttractionDescription.setText(attractionDescription);
-
         }
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
