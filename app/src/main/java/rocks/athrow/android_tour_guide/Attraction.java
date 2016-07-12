@@ -6,11 +6,10 @@ package rocks.athrow.android_tour_guide;
  */
 public class Attraction {
 
-    private String category;
+    private final String category;
     private String name;
     private String address;
     private String description;
-    private String schedule;
     private String filename;
 
     public Attraction(String category) {
@@ -18,12 +17,7 @@ public class Attraction {
         this.name = null;
         this.address = null;
         this.description = null;
-        this.schedule = null;
         this.filename = null;
-    }
-
-    public String getCategory() {
-        return category;
     }
 
     public String getName() {
@@ -50,14 +44,6 @@ public class Attraction {
         this.description = description;
     }
 
-    public String getSchedule() {
-        return schedule;
-    }
-
-    public void setSchedule(String schedule) {
-        this.schedule = schedule;
-    }
-
     public String getFilename() {
         return filename;
     }
@@ -65,6 +51,4 @@ public class Attraction {
     public void setFilename(String filename) {
         this.filename = filename;
     }
-
-
 }
