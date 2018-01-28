@@ -1,6 +1,6 @@
 # android-tour-guide-dallas
 A Dallas Texas Tour Guide App
 
-![Downtown](http://throw.rocks/android-projects/tour-guide/tour-guide-downtown.png)
-![Museums](http://throw.rocks/android-projects/tour-guide/tour-guide-museums.png)
-![Trails](http://throw.rocks/android-projects/tour-guide/tour-guide-trails.png)
+![Downtown](https://github.com/throwrocks/android-project-images/blob/master/tour-guide/tour-guide-downtown.png)
+![Museums](https://github.com/throwrocks/android-project-images/blob/master/tour-guide/tour-guide-museums.png)
+![Trails](https://github.com/throwrocks/android-project-images/blob/master/tour-guide/tour-guide-trails.png)
